@@ -1,4 +1,4 @@
-﻿Log file open, 10/17/18 10:42:54
+﻿Log file open, 10/17/18 13:37:16
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GameJam
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1774254215) SRandInit(-1774254215).
+LogInit: Display: RandInit(417373580) SRandInit(417373580).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.297491
+LogStats: Stats thread started at 0.279011
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.117s to configure plugins.
+LogStreaming: Display: Took  0.776s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -219,1236 +219,168 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: -EpicPortal 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.17-09.42.55:903][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.17-09.42.55:903][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.17-09.42.55:922][  0]LogInit: Computer: 045LPDL-60840
-[2018.10.17-09.42.55:922][  0]LogInit: User: JamesCook
-[2018.10.17-09.42.55:922][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.17-09.42.55:922][  0]LogInit: High frequency timer resolution =1.851561 MHz
-[2018.10.17-09.42.55:922][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.10.17-09.42.55:923][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.17-09.42.55:923][  0]LogMemory: Process Physical Memory: 276.39 MB used, 276.39 MB peak
-[2018.10.17-09.42.55:923][  0]LogMemory: Process Virtual Memory: 264.77 MB used, 264.77 MB peak
-[2018.10.17-09.42.55:923][  0]LogMemory: Physical Memory: 8743.80 MB used,  7520.95 MB free, 16264.75 MB total
-[2018.10.17-09.42.55:923][  0]LogMemory: Virtual Memory: 698.16 MB used,  7520.95 MB free, 134217728.00 MB total
-[2018.10.17-09.42.55:952][  0]LogInit: Using OS detected language (en-US).
-[2018.10.17-09.42.55:952][  0]LogInit: Using OS detected locale (en-GB).
-[2018.10.17-09.42.55:956][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.17-09.42.56:526][  0]LogStreaming: Display: Took  0.575s to EndInitTextLocalization.
-[2018.10.17-09.42.56:527][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.17-09.42.56:624][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.17-09.42.56:624][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.17-09.42.56:912][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.17-09.42.56:927][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2018.10.17-09.42.56:927][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
-[2018.10.17-09.42.56:930][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.17-09.42.56:930][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.17-09.42.56:930][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.17-09.42.56:938][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.17-09.42.56:938][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.17-09.42.56:938][  0]LogWindows: EnumDisplayDevices:
-[2018.10.17-09.42.56:939][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:0 D:1)
-[2018.10.17-09.42.56:940][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2018.10.17-09.42.56:941][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.10.17-09.42.56:942][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.10.17-09.42.56:942][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
-[2018.10.17-09.42.56:942][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.10.17-09.42.56:942][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.10.17-09.42.56:942][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
-[2018.10.17-09.42.56:952][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.17-09.42.56:960][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.10.17-09.42.56:962][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (D:/GameJam/Team15GameJam/GameJam15/GameJam/Intermediate/Shaders/WorkingDirectory/19380/).
-[2018.10.17-09.42.56:962][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/James Cook/AppData/Local/Temp/UnrealShaderWorkingDir/9949B458482B1D2302658CA002883F7B/'.
-[2018.10.17-09.42.57:299][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.17-09.42.57:317][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.17-09.42.57:332][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.17-09.42.57:348][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.17-09.42.57:366][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.17-09.42.57:381][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.17-09.42.57:397][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.17-09.42.57:414][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.17-09.42.57:422][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.17-09.42.57:439][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.10.17-09.42.57:454][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.10.17-09.42.57:469][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.10.17-09.42.57:482][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.10.17-09.42.57:496][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.10.17-09.42.57:510][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.10.17-09.42.57:539][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.10.17-09.42.57:539][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.10.17-09.42.57:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.17-09.42.57:555][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.17-09.42.57:595][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.17-09.42.57:610][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.17-09.42.57:626][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.17-09.42.57:640][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.17-09.42.57:654][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.17-09.42.57:669][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.17-09.42.57:670][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.17-09.42.57:781][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.17-09.42.57:781][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.17-09.42.57:781][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.17-09.42.58:664][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.17-09.42.58:743][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/James Cook/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.10.17-09.42.58:744][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/James Cook/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.10.17-09.42.58:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GameJam/Team15GameJam/GameJam15/GameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.17-09.42.58:744][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.17-09.42.58:744][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GameJam/Team15GameJam/GameJam15/GameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.17-09.42.58:744][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.17-09.42.58:774][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.17-09.42.58:787][  0]LogDerivedDataCache: Using Local data cache path C:/Users/James Cook/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.17-09.42.58:787][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.17-09.42.58:787][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.17-09.42.58:804][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.17-09.42.58:805][  0]LogSlate: Using Freetype 2.6.0
-[2018.10.17-09.42.58:805][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.17-09.42.58:805][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.17-09.42.58:941][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
-[2018.10.17-09.42.59:442][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.17-09.42.59:635][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.17-09.42.59:639][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.17-09.42.59:639][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.17-09.42.59:639][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.17-09.42.59:639][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.10.17-09.42.59:639][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.10.17-09.42.59:690][  0]LogNetVersion: GameJam , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2281863040)
-[2018.10.17-09.43.00:356][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.172963 seconds
-[2018.10.17-09.43.00:367][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.10.17-09.43.00:367][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.10.17-09.43.00:367][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.17-09.43.02:920][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.17-09.43.02:986][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.17-09.43.03:491][  0]SourceControl: Source control is disabled
-[2018.10.17-09.43.03:491][  0]SourceControl: Source control is disabled
-[2018.10.17-09.43.03:517][  0]SourceControl: Source control is disabled
-[2018.10.17-09.43.03:545][  0]SourceControl: Source control is disabled
-[2018.10.17-09.43.04:198][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.17-09.43.04:409][  0]LogOcInput: OculusInput pre-init called
-[2018.10.17-09.43.04:585][  0]LogEngine: Initializing Engine...
-[2018.10.17-09.43.04:587][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.17-09.43.04:589][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.17-09.43.04:589][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.17-09.43.04:973][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.17-09.43.05:001][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.17-09.43.05:447][  0]LogInit: FAudioDevice initialized.
-[2018.10.17-09.43.05:552][  0]LogDerivedDataCache: Saved boot cache 0.10s 74MB C:/Users/James Cook/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.10.17-09.43.05:569][  0]LogInit: Texture streaming: Enabled
-[2018.10.17-09.43.05:588][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.17-09.43.05:610][  0]LogInit: Transaction tracking system initialized
-[2018.10.17-09.43.05:637][  0]BlueprintLog: New page: Editor Load
-[2018.10.17-09.43.05:787][  0]LocalizationService: Localization service is disabled
-[2018.10.17-09.43.05:921][  0]LogConsoleResponse: Display: 
-[2018.10.17-09.43.06:107][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/' took 0.01s
-[2018.10.17-09.43.06:107][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.17-09.43.06:107][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.17-09.43.06:107][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.17-09.43.06:107][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.17-09.43.06:107][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.17-09.43.06:493][  0]SourceControl: Source control is disabled
-[2018.10.17-09.43.06:495][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.19/FeaturePacks/StarterContent.upack)
-[2018.10.17-09.43.06:502][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.10.17-09.43.06:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.10.17-09.43.06:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.10.17-09.43.06:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.10.17-09.43.06:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.10.17-09.43.06:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.10.17-09.43.06:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.10.17-09.43.06:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.10.17-09.43.06:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.10.17-09.43.06:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.10.17-09.43.06:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.10.17-09.43.06:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.10.17-09.43.06:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.10.17-09.43.06:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.10.17-09.43.06:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.10.17-09.43.06:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.10.17-09.43.06:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.10.17-09.43.06:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.10.17-09.43.06:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Fire01.uasset"
-[2018.10.17-09.43.06:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.10.17-09.43.06:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.10.17-09.43.06:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.10.17-09.43.06:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Light01.uasset"
-[2018.10.17-09.43.06:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.10.17-09.43.06:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Light02.uasset"
-[2018.10.17-09.43.06:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.10.17-09.43.06:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.10.17-09.43.06:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.10.17-09.43.06:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.10.17-09.43.06:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.10.17-09.43.06:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.10.17-09.43.06:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.10.17-09.43.06:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.10.17-09.43.06:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.10.17-09.43.06:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Steam01.uasset"
-[2018.10.17-09.43.06:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.10.17-09.43.06:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.10.17-09.43.06:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.10.17-09.43.06:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.10.17-09.43.06:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.10.17-09.43.06:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.10.17-09.43.06:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.10.17-09.43.06:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.10.17-09.43.06:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.10.17-09.43.06:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.10.17-09.43.06:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.10.17-09.43.06:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.10.17-09.43.06:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.10.17-09.43.06:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.10.17-09.43.06:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.10.17-09.43.06:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.10.17-09.43.06:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.10.17-09.43.06:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.10.17-09.43.06:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.10.17-09.43.07:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.10.17-09.43.07:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.10.17-09.43.07:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.10.17-09.43.07:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Maps/StarterMap.umap"
-[2018.10.17-09.43.07:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.10.17-09.43.07:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.10.17-09.43.07:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.10.17-09.43.07:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.10.17-09.43.07:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.10.17-09.43.07:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.10.17-09.43.07:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.10.17-09.43.07:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.10.17-09.43.07:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.10.17-09.43.07:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.10.17-09.43.07:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.10.17-09.43.07:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.10.17-09.43.07:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.10.17-09.43.07:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.10.17-09.43.07:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.10.17-09.43.07:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.10.17-09.43.07:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.10.17-09.43.07:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.10.17-09.43.07:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.10.17-09.43.07:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.10.17-09.43.07:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.10.17-09.43.07:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.10.17-09.43.07:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.10.17-09.43.07:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.10.17-09.43.07:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.10.17-09.43.07:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.10.17-09.43.07:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.10.17-09.43.07:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.10.17-09.43.07:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.10.17-09.43.07:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.10.17-09.43.07:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.10.17-09.43.07:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.10.17-09.43.07:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.10.17-09.43.07:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.10.17-09.43.07:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.10.17-09.43.07:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.10.17-09.43.07:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.10.17-09.43.07:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.10.17-09.43.07:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.10.17-09.43.07:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.10.17-09.43.07:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.10.17-09.43.07:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.10.17-09.43.07:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.10.17-09.43.07:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.10.17-09.43.07:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.10.17-09.43.07:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.10.17-09.43.07:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.10.17-09.43.07:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.10.17-09.43.07:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.10.17-09.43.07:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.10.17-09.43.07:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.10.17-09.43.07:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.10.17-09.43.07:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.10.17-09.43.07:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.10.17-09.43.07:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.10.17-09.43.07:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.10.17-09.43.07:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.10.17-09.43.07:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.10.17-09.43.07:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.10.17-09.43.07:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.10.17-09.43.07:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.10.17-09.43.07:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.10.17-09.43.07:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.10.17-09.43.07:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.10.17-09.43.07:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.10.17-09.43.07:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_Door.uasset"
-[2018.10.17-09.43.07:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.10.17-09.43.07:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.10.17-09.43.07:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.10.17-09.43.07:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.10.17-09.43.07:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.10.17-09.43.07:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.10.17-09.43.07:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.10.17-09.43.07:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.10.17-09.43.07:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.10.17-09.43.07:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.10.17-09.43.07:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.10.17-09.43.07:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.10.17-09.43.07:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.10.17-09.43.07:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.10.17-09.43.07:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.10.17-09.43.07:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.10.17-09.43.07:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.10.17-09.43.07:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.10.17-09.43.08:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.10.17-09.43.08:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.10.17-09.43.08:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.10.17-09.43.08:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.10.17-09.43.08:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.10.17-09.43.08:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.10.17-09.43.08:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.10.17-09.43.08:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.10.17-09.43.08:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.10.17-09.43.08:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.10.17-09.43.08:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.10.17-09.43.08:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.10.17-09.43.08:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.10.17-09.43.08:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.10.17-09.43.08:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.10.17-09.43.08:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.10.17-09.43.08:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.10.17-09.43.08:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.10.17-09.43.08:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.10.17-09.43.08:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.10.17-09.43.08:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.10.17-09.43.08:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.10.17-09.43.08:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.10.17-09.43.08:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.10.17-09.43.08:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.10.17-09.43.08:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.10.17-09.43.08:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.10.17-09.43.08:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.10.17-09.43.08:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.10.17-09.43.08:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.10.17-09.43.08:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.10.17-09.43.08:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.10.17-09.43.08:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.10.17-09.43.08:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.10.17-09.43.08:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.10.17-09.43.08:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.10.17-09.43.08:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.10.17-09.43.08:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.10.17-09.43.08:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.10.17-09.43.08:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.10.17-09.43.08:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.10.17-09.43.08:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.10.17-09.43.08:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.10.17-09.43.08:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.10.17-09.43.08:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.10.17-09.43.08:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.10.17-09.43.08:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.10.17-09.43.08:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.10.17-09.43.08:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.10.17-09.43.08:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.10.17-09.43.08:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.10.17-09.43.08:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.10.17-09.43.08:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.10.17-09.43.08:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.10.17-09.43.08:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.10.17-09.43.08:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.10.17-09.43.08:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.10.17-09.43.08:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.10.17-09.43.08:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.10.17-09.43.08:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.10.17-09.43.08:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.10.17-09.43.08:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.10.17-09.43.08:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.10.17-09.43.08:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.10.17-09.43.08:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.10.17-09.43.08:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.10.17-09.43.08:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.10.17-09.43.08:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.10.17-09.43.08:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.10.17-09.43.08:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.10.17-09.43.08:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.10.17-09.43.08:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.10.17-09.43.08:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.10.17-09.43.08:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.10.17-09.43.08:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.10.17-09.43.08:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.10.17-09.43.08:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.10.17-09.43.08:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.10.17-09.43.08:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.10.17-09.43.08:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.10.17-09.43.08:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.10.17-09.43.08:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.10.17-09.43.08:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.10.17-09.43.09:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.10.17-09.43.09:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.10.17-09.43.09:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.10.17-09.43.09:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.10.17-09.43.09:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.10.17-09.43.09:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.10.17-09.43.09:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.10.17-09.43.09:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.10.17-09.43.09:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.10.17-09.43.09:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.10.17-09.43.09:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.10.17-09.43.09:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.10.17-09.43.09:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.10.17-09.43.09:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.10.17-09.43.09:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.10.17-09.43.09:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.10.17-09.43.09:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.10.17-09.43.09:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.10.17-09.43.09:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.10.17-09.43.09:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.10.17-09.43.09:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.10.17-09.43.09:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.10.17-09.43.09:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.10.17-09.43.09:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.10.17-09.43.09:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.10.17-09.43.09:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.10.17-09.43.09:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.10.17-09.43.09:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.10.17-09.43.09:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.10.17-09.43.09:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.10.17-09.43.09:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.10.17-09.43.09:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.10.17-09.43.09:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.10.17-09.43.09:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.10.17-09.43.09:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.10.17-09.43.09:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.10.17-09.43.09:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.10.17-09.43.09:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.10.17-09.43.09:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.10.17-09.43.09:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.10.17-09.43.09:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.10.17-09.43.09:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.10.17-09.43.09:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.10.17-09.43.09:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.10.17-09.43.09:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.10.17-09.43.09:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.10.17-09.43.09:744][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.10.17-09.43.10:411][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2018.10.17-09.43.10:450][  0]LogSavePackage: Save=22.41ms
-[2018.10.17-09.43.10:450][  0]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Floor_400x400FF11FA29411B3C38B3A587A5BE5CDC3D.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.10.17-09.43.10:462][  0]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.10.17-09.43.10:462][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.10.17-09.43.10:466][  0]Cmd: MAP LOAD FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.17-09.43.10:467][  0]LightingResults: New page: Lighting Build
-[2018.10.17-09.43.10:470][  0]MapCheck: New page: Map Check
-[2018.10.17-09.43.10:470][  0]LightingResults: New page: Lighting Build
-[2018.10.17-09.43.10:881][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.10.17-09.43.10:891][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.17-09.43.10:925][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.17-09.43.10:999][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.404ms to complete.
-[2018.10.17-09.43.11:000][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.533
-[2018.10.17-09.43.11:232][  0]LogCollectionManager: Loaded 0 collections in 0.001844 seconds
-[2018.10.17-09.43.11:293][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Collections/' took 0.01s
-[2018.10.17-09.43.11:293][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Developers/JamesCook/Collections/' took 0.01s
-[2018.10.17-09.43.11:293][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Collections/' took 0.01s
-[2018.10.17-09.43.11:293][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.10.17-09.43.11:307][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2452 classes and 558 folders.
-[2018.10.17-09.43.11:315][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.10.17-09.43.11:364][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.10.17-09.43.11:371][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.10.17-09.43.11:396][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.17-09.43.11:399][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.17-09.43.11:408][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.17-09.43.11:472][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
-[2018.10.17-09.43.12:412][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.17-09.43.12:537][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.10.17-09.43.12:537][  0]LogLoad: (Engine Initialization) Total time: 19.18 seconds
-[2018.10.17-09.43.12:537][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.17-09.43.12:663][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.17-09.43.12:732][  1]LogAssetRegistry: Asset discovery search completed in 13.8141 seconds
-[2018.10.17-09.43.12:736][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.10.17-09.43.12:736][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
-[2018.10.17-10.10.55:434][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.12.05:811][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.12.06:016][329]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.17-10.12.08:194][329]LogSlate: Window 'Save Content' being destroyed
-[2018.10.17-10.12.08:212][329]Cmd: MAP LOAD FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.17-10.12.08:218][329]LightingResults: New page: Lighting Build
-[2018.10.17-10.12.08:219][329]LoadErrors: New page: Loading map: James.umap
-[2018.10.17-10.12.08:220][329]MapCheck: New page: Map Check
-[2018.10.17-10.12.08:220][329]LightingResults: New page: Lighting Build
-[2018.10.17-10.12.08:248][329]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.17-10.12.08:249][329]LogAIModule: Creating AISystem for world James
-[2018.10.17-10.12.08:292][329]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.17-10.12.08:371][329]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.174ms to complete.
-[2018.10.17-10.12.08:375][329]LogFileHelpers: Loading map 'James' took 0.164
-[2018.10.17-10.12.15:187][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.12.21:734][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.12.21:994][693]LogActorFactory: Actor Factory created Cube
-[2018.10.17-10.12.24:061][747]LogActorFactory: Actor Factory created Cube
-[2018.10.17-10.12.25:050][767]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2018.10.17-10.12.31:000][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.12.37:326][ 87]LogEditorViewport: Clicking Background
-[2018.10.17-10.12.37:682][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-10.12.37:705][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-10.12.37:745][ 94]LogSavePackage: Save=17.46ms
-[2018.10.17-10.12.37:745][ 94]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James6F3A279C4D57D7E165F7A9BD9D3D1286.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-10.12.37:759][ 94]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-10.12.38:601][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2018.10.17-10.12.44:280][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2018.10.17-10.12.45:147][276]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2018.10.17-10.12.48:349][353]LogEditorViewport: Clicking Background
-[2018.10.17-10.12.48:833][363]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-10.12.48:856][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-10.12.48:896][363]LogSavePackage: Save=13.07ms
-[2018.10.17-10.12.48:896][363]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James726E919C421F1074F872DB88F8A6E476.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-10.12.48:909][363]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-10.14.29:221][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-10.14.29:244][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-10.14.29:290][ 84]LogSavePackage: Save=20.42ms
-[2018.10.17-10.14.29:290][ 84]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James82527E794885FF6F79A043B532105A3F.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-10.14.29:300][ 84]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-10.15.11:947][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-10.15.11:954][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-10.15.12:000][232]LogSavePackage: Save=18.85ms
-[2018.10.17-10.15.12:000][232]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James4B919DAA4F4EBAE8E5D1ADA1AE6334A5.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-10.15.12:008][232]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-10.16.10:370][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.16.13:494][532]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2018.10.17-10.16.20:672][715]LogEditorViewport: Clicking Background
-[2018.10.17-10.16.24:817][820]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2018.10.17-10.16.27:538][887]Cmd: TRANSACTION UNDO
-[2018.10.17-10.16.27:538][887]LogEditorTransaction: Undo Scale Actors
-[2018.10.17-10.16.32:149][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.16.40:745][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.16.43:622][322]Cmd: DELETE
-[2018.10.17-10.16.43:622][322]Cmd: ACTOR DELETE
-[2018.10.17-10.16.43:629][322]LogEditorActor: Deleted Actor: SkyLight
-[2018.10.17-10.16.43:672][322]LogEditorActor: Deleted 1 Actors (0.046 secs)
-[2018.10.17-10.16.47:621][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.16.50:654][492]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
-[2018.10.17-10.16.51:095][492]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018002b899d8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.10.17-10.16.51:096][492]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018002b899d0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.10.17-10.16.51:712][492]LogSlate: Took 0.007437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.10.17-10.16.52:071][493]LogSlate: Took 0.007278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.10.17-10.16.56:272][582]LogSlate: Window 'BP_Sky_Sphere' being destroyed
-[2018.10.17-10.19.11:379][229]LogEditorTransaction: Undo Edit Sun Brightness
-[2018.10.17-10.19.14:803][413]BlueprintLog: New page: Compile BP_Sky_Sphere
-[2018.10.17-10.19.24:856][655]Cmd: TRANSACTION UNDO
-[2018.10.17-10.19.24:856][655]LogEditorTransaction: Undo Rotate Actors
-[2018.10.17-10.19.28:677][772]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.10.17-10.19.31:594][835]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.10.17-10.19.32:514][854]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.10.17-10.20.18:281][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.25.29:572][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.10.17-10.25.29:606][161]LogSavePackage: Save=17.37ms
-[2018.10.17-10.25.29:606][161]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James_Auto1161F1FCD437E758DD00EA499084A8A11.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto1.umap'
-[2018.10.17-10.25.29:611][161]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto1.umap
-[2018.10.17-10.25.29:616][161]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/James' took 0.086
-[2018.10.17-10.25.29:616][161]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.086
-[2018.10.17-10.25.29:624][161]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EngineSky/BP_Sky_Sphere] ([1] browsable assets)...
-[2018.10.17-10.25.29:691][161]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere]
-[2018.10.17-10.25.29:691][161]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSky/BP_Sky_Sphere]
-[2018.10.17-10.25.29:691][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Engine/EngineSky/BP_Sky_Sphere_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.10.17-10.25.29:815][161]LogSavePackage: Save=111.99ms
-[2018.10.17-10.25.29:815][161]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/BP_Sky_Sphere_Auto109A7ECF64782275123DE3AB0416C02EF.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Engine/EngineSky/BP_Sky_Sphere_Auto1.uasset'
-[2018.10.17-10.25.29:820][161]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Engine/EngineSky/BP_Sky_Sphere_Auto1.uasset
-[2018.10.17-10.25.29:820][161]LogFileHelpers: Auto-saving content packages took 0.200
-[2018.10.17-10.28.43:333][261]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\James Cook\Pictures\earthbox.jpg)
-[2018.10.17-10.28.43:394][261]LogTexture: Display: Building textures: earthbox (AutoDXT, 1900X900)
-[2018.10.17-10.30.15:680][363]LogRenderer: Reallocating scene render targets to support 1432x1044 Format 10 NumSamples 1 (Frame:1).
-[2018.10.17-10.32.15:419][791]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
-[2018.10.17-10.32.15:555][791]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
-[2018.10.17-10.32.15:583][791]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.10.17-10.32.15:583][791]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.10.17-10.32.15:583][791]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.10.17-10.32.15:583][791]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.10.17-10.32.19:201][828]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.17-10.32.19:384][829]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.10.17-10.32.19:424][830]LogShaderCompilers: Display: Shaders left to compile 10
-[2018.10.17-10.32.19:424][830]LogShaderCompilers: Display: Shaders left to compile 9
-[2018.10.17-10.32.19:980][836]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.10.17-10.32.20:178][838]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.10.17-10.32.20:209][838]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.10.17-10.32.21:047][847]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.10.17-10.32.21:049][847]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.10.17-10.32.21:740][854]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.10.17-10.32.21:961][856]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.17-10.32.22:035][857]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.10.17-10.32.23:706][874]MaterialEditorStats: Base pass shader: 99 instructions
-[2018.10.17-10.32.23:706][874]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2018.10.17-10.32.23:706][874]MaterialEditorStats: Vertex shader: 34 instructions
-[2018.10.17-10.32.23:707][874]MaterialEditorStats: Texture samplers: 2/16
-[2018.10.17-10.32.55:171][978]Cmd: TRANSACTION UNDO
-[2018.10.17-10.32.55:171][978]LogEditorTransaction: Undo Replace component used material
-[2018.10.17-10.32.55:444][978]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
-[2018.10.17-10.32.55:475][978]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.10.17-10.32.55:475][978]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.10.17-10.32.55:475][978]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.10.17-10.32.55:475][978]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.10.17-10.32.56:911][ 10]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.17-10.32.57:080][ 10]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.10.17-10.32.57:117][ 10]LogShaderCompilers: Display: Shaders left to compile 10
-[2018.10.17-10.32.57:152][ 10]LogShaderCompilers: Display: Shaders left to compile 9
-[2018.10.17-10.32.57:532][ 17]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.10.17-10.32.57:576][ 18]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.10.17-10.32.57:605][ 19]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.10.17-10.32.58:105][ 37]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.10.17-10.32.58:161][ 39]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.10.17-10.32.58:571][ 55]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.10.17-10.32.58:681][ 58]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.17-10.32.58:774][ 59]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.10.17-10.33.01:502][ 63]LogSlate: Window 'Delete Assets' being destroyed
-[2018.10.17-10.33.01:697][ 64]MaterialEditorStats: Base pass shader: 99 instructions
-[2018.10.17-10.33.01:697][ 64]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2018.10.17-10.33.01:697][ 64]MaterialEditorStats: Vertex shader: 34 instructions
-[2018.10.17-10.33.01:697][ 64]MaterialEditorStats: Texture samplers: 2/16
-[2018.10.17-10.33.57:666][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.33.59:039][219]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
-[2018.10.17-10.34.02:587][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.34.03:159][265]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
-[2018.10.17-10.34.03:259][265]LogEditorActor: Deleted 1 Actors (0.104 secs)
-[2018.10.17-10.34.22:974][624]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2018.10.17-10.34.23:006][625]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.10.17-10.34.41:415][828]LogActorFactory: Actor Factory created SM_SkySphere
-[2018.10.17-10.34.42:449][854]LogActorFactory: Actor Factory created SM_SkySphere
-[2018.10.17-10.34.44:325][873]Cmd: TRANSACTION UNDO
-[2018.10.17-10.34.44:325][873]LogEditorTransaction: Undo Create Actors
-[2018.10.17-10.34.44:619][873]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
-[2018.10.17-10.34.44:647][873]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.10.17-10.34.44:647][873]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.10.17-10.34.44:647][873]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.10.17-10.34.44:647][873]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.10.17-10.34.45:083][886]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.17-10.34.45:930][898]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.10.17-10.34.46:147][902]LogShaderCompilers: Display: Shaders left to compile 10
-[2018.10.17-10.34.46:297][903]LogShaderCompilers: Display: Shaders left to compile 9
-[2018.10.17-10.34.46:298][903]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.10.17-10.34.46:637][905]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.10.17-10.34.46:978][908]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.10.17-10.34.47:498][910]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.10.17-10.34.47:767][913]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.10.17-10.34.47:924][914]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.10.17-10.34.48:643][919]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.17-10.34.48:681][920]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.10.17-10.34.48:824][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.34.49:615][939]MaterialEditorStats: Base pass shader: 99 instructions
-[2018.10.17-10.34.49:616][939]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2018.10.17-10.34.49:616][939]MaterialEditorStats: Vertex shader: 34 instructions
-[2018.10.17-10.34.49:616][939]MaterialEditorStats: Texture samplers: 2/16
-[2018.10.17-10.35.39:105][545]LogActorFactory: Actor Factory created SM_SkySphere
-[2018.10.17-10.35.39:382][552]LogActorFactory: Actor Factory created SM_SkySphere
-[2018.10.17-10.35.40:028][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.35.50:779][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.35.51:522][682]LogMaterial: Missing cached shader map for material T_Sky_Stars_Mat, compiling. 
-[2018.10.17-10.35.51:547][682]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.17-10.35.51:547][682]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.17-10.35.51:547][682]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.17-10.35.56:125][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.35.56:641][749]LogMaterial: Missing cached shader map for material SkyLight_Mat, compiling. 
-[2018.10.17-10.35.56:668][749]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.17-10.35.56:668][749]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.17-10.35.57:684][771]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.17-10.35.59:054][782]Cmd: TRANSACTION UNDO
-[2018.10.17-10.35.59:054][782]LogEditorTransaction: Undo Create Actors
-[2018.10.17-10.35.59:483][782]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
-[2018.10.17-10.35.59:491][782]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.10.17-10.36.00:244][796]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.10.17-10.36.01:365][805]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.10.17-10.36.01:665][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.36.01:882][805]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.10.17-10.36.01:940][806]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.17-10.36.02:311][813]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.10.17-10.36.02:425][816]LogShaderCompilers: Display: Shaders left to compile 10
-[2018.10.17-10.36.02:908][821]LogShaderCompilers: Display: Shaders left to compile 9
-[2018.10.17-10.36.03:093][823]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.10.17-10.36.03:278][824]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.10.17-10.36.04:113][830]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.10.17-10.36.04:467][833]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.10.17-10.36.04:742][833]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.10.17-10.36.05:669][842]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.10.17-10.36.05:864][843]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.17-10.36.06:377][844]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.10.17-10.36.07:469][853]MaterialEditorStats: Base pass shader: 99 instructions
-[2018.10.17-10.36.07:470][853]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2018.10.17-10.36.07:470][853]MaterialEditorStats: Vertex shader: 34 instructions
-[2018.10.17-10.36.07:470][853]MaterialEditorStats: Texture samplers: 2/16
-[2018.10.17-10.36.10:776][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.36.15:971][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.36.16:568][948]LogMaterial: Missing cached shader map for material T_Sky_Stars_Mat, compiling. 
-[2018.10.17-10.36.16:598][948]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.17-10.36.16:598][948]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.17-10.36.16:598][948]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.17-10.36.19:405][991]Cmd: TRANSACTION UNDO
-[2018.10.17-10.36.19:405][991]LogEditorTransaction: Undo Create Actors
-[2018.10.17-10.36.19:781][991]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
-[2018.10.17-10.36.19:792][991]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.10.17-10.36.19:792][991]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.10.17-10.36.19:816][991]Cmd: TRANSACTION UNDO
-[2018.10.17-10.36.19:816][991]LogEditorTransaction: Undo Create Actors
-[2018.10.17-10.36.20:012][991]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
-[2018.10.17-10.36.20:025][991]Cmd: TRANSACTION UNDO
-[2018.10.17-10.36.20:025][991]LogEditorTransaction: Undo Create Actors
-[2018.10.17-10.36.20:136][991]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.10.17-10.36.20:136][991]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.10.17-10.36.20:231][991]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
-[2018.10.17-10.36.20:361][992]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.10.17-10.36.20:379][992]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.10.17-10.36.21:282][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.36.21:365][999]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.10.17-10.36.21:366][999]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.10.17-10.36.21:525][  1]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.17-10.36.21:783][  6]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.10.17-10.36.21:835][  7]LogShaderCompilers: Display: Shaders left to compile 10
-[2018.10.17-10.36.21:904][  8]LogShaderCompilers: Display: Shaders left to compile 9
-[2018.10.17-10.36.22:383][ 12]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.10.17-10.36.22:450][ 12]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.10.17-10.36.23:375][ 20]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.10.17-10.36.23:438][ 20]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.10.17-10.36.24:097][ 26]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.10.17-10.36.24:873][ 29]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.10.17-10.36.24:928][ 29]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.17-10.36.25:079][ 30]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.10.17-10.36.26:171][ 39]MaterialEditorStats: Base pass shader: 99 instructions
-[2018.10.17-10.36.26:171][ 39]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2018.10.17-10.36.26:171][ 39]MaterialEditorStats: Vertex shader: 34 instructions
-[2018.10.17-10.36.26:171][ 39]MaterialEditorStats: Texture samplers: 2/16
-[2018.10.17-10.36.29:547][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-10.37.00:635][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.10.17-10.37.00:671][295]LogSavePackage: Save=16.36ms
-[2018.10.17-10.37.00:672][295]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James_Auto22F211181400AC7834863B2946A87467E.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto2.umap'
-[2018.10.17-10.37.00:676][295]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto2.umap
-[2018.10.17-10.37.00:681][295]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/James' took 0.075
-[2018.10.17-10.37.00:681][295]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.075
-[2018.10.17-10.37.00:687][295]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Skybox/earthbox] ([1] browsable assets)...
-[2018.10.17-10.37.00:692][295]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Skybox/earthbox.earthbox]
-[2018.10.17-10.37.00:692][295]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Skybox/earthbox]
-[2018.10.17-10.37.00:692][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Skybox/earthbox" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/earthbox_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2018.10.17-10.37.00:715][295]LogSavePackage: Save=17.31ms
-[2018.10.17-10.37.00:715][295]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/earthbox_Auto2835C57FC4E83B064A1A3C98D2624F9EB.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/earthbox_Auto2.uasset'
-[2018.10.17-10.37.00:722][295]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/earthbox_Auto2.uasset
-[2018.10.17-10.37.00:723][295]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Skybox/Earthboc] ([1] browsable assets)...
-[2018.10.17-10.37.00:756][295]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Skybox/Earthboc.Earthboc]
-[2018.10.17-10.37.00:756][295]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Skybox/Earthboc]
-[2018.10.17-10.37.00:756][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Skybox/Earthboc" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/Earthboc_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2018.10.17-10.37.00:787][295]LogSavePackage: Save=25.09ms
-[2018.10.17-10.37.00:787][295]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Earthboc_Auto209BC12204A4217CD5542D19C5AF78B88.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/Earthboc_Auto2.uasset'
-[2018.10.17-10.37.00:793][295]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/Earthboc_Auto2.uasset
-[2018.10.17-10.37.00:793][295]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EngineSky/T_Sky_Stars_Mat] ([1] browsable assets)...
-[2018.10.17-10.37.00:827][295]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/EngineSky/T_Sky_Stars_Mat.T_Sky_Stars_Mat]
-[2018.10.17-10.37.00:827][295]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSky/T_Sky_Stars_Mat]
-[2018.10.17-10.37.00:852][295]LogSavePackage: Save=22.94ms
-[2018.10.17-10.37.00:852][295]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/T_Sky_Stars_Mat_Auto2AB5EA8614D60CF66E52FE38845DA21EF.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Engine/EngineSky/T_Sky_Stars_Mat_Auto2.uasset'
-[2018.10.17-10.37.00:857][295]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Engine/EngineSky/T_Sky_Stars_Mat_Auto2.uasset
-[2018.10.17-10.37.00:857][295]LogFileHelpers: Auto-saving content packages took 0.174
-[2018.10.17-10.40.59:753][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-10.40.59:765][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-10.40.59:815][ 60]LogSavePackage: Save=14.51ms
-[2018.10.17-10.40.59:815][ 60]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/JamesC3BBE5134E559758ACB8648FDC641183.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-10.40.59:834][ 60]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-11.29.33:806][890]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.29.51:898][966]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.31.58:352][617]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.32.10:849][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2018.10.17-11.32.16:660][794]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.32.20:726][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.32.25:667][141]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.32.52:989][518]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.32.54:521][655]Cmd: STAT FPS
-[2018.10.17-11.32.55:864][767]LogEditorViewport: Clicking Background
-[2018.10.17-11.33.47:326][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.33.51:277][541]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.33.56:584][716]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.34.03:445][991]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.34.08:271][174]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.34.11:328][289]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.34.16:773][621]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.34.24:968][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.34.29:765][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2018.10.17-11.34.36:820][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.34.38:864][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.34.42:776][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
-[2018.10.17-11.34.44:636][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.34.50:524][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.34.55:937][338]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.10.17-11.34.59:541][386]Cmd: TRANSACTION UNDO
-[2018.10.17-11.34.59:541][386]LogEditorTransaction: Undo Move Actors
-[2018.10.17-11.34.59:769][386]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
-[2018.10.17-11.34.59:802][386]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.10.17-11.34.59:802][386]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.10.17-11.34.59:802][386]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.10.17-11.34.59:802][386]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.10.17-11.35.00:543][426]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.17-11.35.00:625][428]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.10.17-11.35.00:666][429]LogShaderCompilers: Display: Shaders left to compile 10
-[2018.10.17-11.35.00:666][429]LogShaderCompilers: Display: Shaders left to compile 9
-[2018.10.17-11.35.01:121][435]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.10.17-11.35.01:198][436]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.10.17-11.35.01:219][436]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.10.17-11.35.01:660][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.35.01:745][442]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-11.35.01:815][442]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.10.17-11.35.01:815][442]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.10.17-11.35.01:815][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-11.35.01:821][442]PIE: New page: PIE session: James (17 Oct 2018 13:35:01)
-[2018.10.17-11.35.01:823][442]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_James
-[2018.10.17-11.35.01:827][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003660s)
-[2018.10.17-11.35.01:828][442]LogAIModule: Creating AISystem for world James
-[2018.10.17-11.35.01:829][442]LogPlayLevel: PIE: World Init took: (0.001744s)
-[2018.10.17-11.35.01:829][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/James.James to /Game/Levels/UEDPIE_0_James.James (0.005975s)
-[2018.10.17-11.35.01:885][442]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.17-11.35.01:994][442]LogInit: FAudioDevice initialized.
-[2018.10.17-11.35.02:061][442]LogLoad: Game class is 'GameModeBase'
-[2018.10.17-11.35.02:074][442]LogWorld: Bringing World /Game/Levels/UEDPIE_0_James.James up for play (max tick rate 0) at 2018.10.17-12.35.02
-[2018.10.17-11.35.02:076][442]LogWorld: Bringing up level for play took: 0.002614
-[2018.10.17-11.35.02:099][442]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.10.17-11.35.02:099][442]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.10.17-11.35.02:104][442]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_James 0.33
-[2018.10.17-11.35.02:214][443]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.17-11.35.02:248][443]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.10.17-11.35.02:936][461]MaterialEditorStats: Base pass shader: 99 instructions
-[2018.10.17-11.35.02:936][461]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2018.10.17-11.35.02:936][461]MaterialEditorStats: Vertex shader: 34 instructions
-[2018.10.17-11.35.02:936][461]MaterialEditorStats: Texture samplers: 2/16
-[2018.10.17-11.35.41:000][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.35.44:811][647]LogSlate: Window 'Message' being destroyed
-[2018.10.17-11.36.13:118][820]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
-[2018.10.17-11.36.19:360][ 71]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.10.17-11.36.20:062][ 91]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.10.17-11.36.25:755][301]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.10.17-11.36.27:771][361]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2018.10.17-11.36.30:788][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2018.10.17-11.36.32:040][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
-[2018.10.17-11.36.32:826][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.36.36:916][689]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.36.36:925][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-11.36.37:004][689]LogSavePackage: Save=22.18ms
-[2018.10.17-11.36.37:004][689]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James5066F89948FAFE628EC1E486426B4173.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-11.36.37:015][689]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-11.38.08:041][471]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.39.02:900][990]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.39.21:741][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.39.57:248][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.39.57:335][967]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-11.39.57:366][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-11.39.57:366][967]PIE: New page: PIE session: James (17 Oct 2018 13:39:57)
-[2018.10.17-11.39.57:366][967]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_James
-[2018.10.17-11.39.57:369][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002570s)
-[2018.10.17-11.39.57:370][967]LogAIModule: Creating AISystem for world James
-[2018.10.17-11.39.57:370][967]LogPlayLevel: PIE: World Init took: (0.001173s)
-[2018.10.17-11.39.57:370][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/James.James to /Game/Levels/UEDPIE_0_James.James (0.003977s)
-[2018.10.17-11.39.57:400][967]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.17-11.39.57:478][967]LogInit: FAudioDevice initialized.
-[2018.10.17-11.39.57:519][967]LogLoad: Game class is 'GameModeBase'
-[2018.10.17-11.39.57:521][967]LogWorld: Bringing World /Game/Levels/UEDPIE_0_James.James up for play (max tick rate 0) at 2018.10.17-12.39.57
-[2018.10.17-11.39.57:522][967]LogWorld: Bringing up level for play took: 0.001472
-[2018.10.17-11.39.57:524][967]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_James -0.25
-[2018.10.17-11.40.13:078][463]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.40.15:900][533]LogRenderer: Reallocating scene render targets to support 1432x1044 Format 9 NumSamples 1 (Frame:22201).
-[2018.10.17-11.40.16:142][536]LogContentStreaming: Texture pool size now 800 MB
-[2018.10.17-11.40.20:774][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
-[2018.10.17-11.40.27:172][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.40.33:261][968]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.40.36:322][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.40.43:155][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.40.43:465][226]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.40.44:427][250]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.40.44:601][253]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.40.44:710][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.40.44:850][257]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.40.49:000][329]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.10.17-11.40.49:143][330]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameJam
-[2018.10.17-11.40.49:143][330]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.10.17-11.40.49:143][330]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.10.17-11.40.49:143][330]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.10.17-11.40.49:143][330]LogTemp: BranchPath = 045LPDL-60840/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = 045LPDL-60840/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.10.17-11.40.49:143][330]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\James Cook\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.10.17-11.41.36:915][500]LogSlate: Window 'Project Settings' being destroyed
-[2018.10.17-11.41.36:992][500]LogSlate: Window 'Project Settings' being destroyed
-[2018.10.17-11.41.43:062][657]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2018.10.17-11.41.46:241][737]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.41.49:464][848]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.41.57:340][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.41.58:741][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.41.59:774][ 92]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.10.17-11.41.59:911][ 93]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameJam
-[2018.10.17-11.41.59:912][ 93]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.10.17-11.41.59:912][ 93]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.10.17-11.41.59:912][ 93]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.10.17-11.41.59:912][ 93]LogTemp: BranchPath = 045LPDL-60840/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = 045LPDL-60840/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.10.17-11.41.59:912][ 93]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\James Cook\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.10.17-11.42.21:159][604]LogSlate: Window 'Project Settings' being destroyed
-[2018.10.17-11.42.21:230][604]LogSlate: Window 'Project Settings' being destroyed
-[2018.10.17-11.43.02:948][695]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.44.09:424][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.44.12:928][481]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-11.44.12:944][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-11.44.13:029][481]LogSavePackage: Save=24.09ms
-[2018.10.17-11.44.13:029][481]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James3C2629FF4DC625D2DFA569815F94E4B1.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-11.44.13:042][481]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-11.45.55:196][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.45.55:361][896]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.17-11.45.55:403][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.17-11.45.55:403][896]PIE: New page: PIE session: James (17 Oct 2018 13:45:55)
-[2018.10.17-11.45.55:403][896]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_James
-[2018.10.17-11.45.55:404][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001022s)
-[2018.10.17-11.45.55:405][896]LogAIModule: Creating AISystem for world James
-[2018.10.17-11.45.55:405][896]LogPlayLevel: PIE: World Init took: (0.000942s)
-[2018.10.17-11.45.55:405][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/James.James to /Game/Levels/UEDPIE_0_James.James (0.002094s)
-[2018.10.17-11.45.55:435][896]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.17-11.45.55:515][896]LogInit: FAudioDevice initialized.
-[2018.10.17-11.45.55:550][896]LogLoad: Game class is 'GameModeBase'
-[2018.10.17-11.45.55:553][896]LogWorld: Bringing World /Game/Levels/UEDPIE_0_James.James up for play (max tick rate 0) at 2018.10.17-12.45.55
-[2018.10.17-11.45.55:553][896]LogWorld: Bringing up level for play took: 0.001614
-[2018.10.17-11.45.55:554][896]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_James -0.22
-[2018.10.17-11.48.49:417][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.17-11.49.13:971][225]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.10.17-11.50.38:365][789]LogSlate: Window 'Delete Assets' being destroyed
-[2018.10.17-11.50.42:183][836]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.10.17-11.51.03:130][202]LogSlate: Window 'FirstPersonCharacter*' being destroyed
-[2018.10.17-11.51.25:834][162]LogSlate: Window 'Delete Assets' being destroyed
-[2018.10.17-12.31.36:779][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-12.31.36:788][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-12.31.36:842][ 38]LogSavePackage: Save=13.37ms
-[2018.10.17-12.31.36:842][ 38]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James0567802942D2303E0B882CA0F5FB53CF.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-12.31.36:848][ 38]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-12.31.37:694][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-12.31.37:736][ 54]LogSavePackage: Save=17.44ms
-[2018.10.17-12.31.37:736][ 54]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James405A5F3548BCEB010DF7D99ECE0B4859.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-12.31.37:740][ 54]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-12.31.55:045][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.17-12.32.05:264][411]LogSlate: Window 'Source Control Login' being destroyed
-[2018.10.17-12.33.59:101][ 11]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.10.17-12.34.07:787][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-12.34.07:829][211]LogSavePackage: Save=14.24ms
-[2018.10.17-12.34.07:830][211]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James1A5EA06E4DEB3A904001B6A9739CF689.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-12.34.07:835][211]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-12.34.49:079][730]LogSlate: Window 'Delete Assets' being destroyed
-[2018.10.17-12.35.41:010][262]LogSlate: Window 'Save Content' being destroyed
-[2018.10.17-12.35.45:787][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.10.17-12.35.45:837][373]LogSavePackage: Save=17.68ms
-[2018.10.17-12.35.45:838][373]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/JamesFE2C5CD541AF02E32503B9B64D7835F4.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
-[2018.10.17-12.35.45:842][373]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
-[2018.10.17-12.35.54:406][478]LogSlate: Window 'Save Content' being destroyed
-[2018.10.17-12.35.54:441][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" SILENT=true
-[2018.10.17-12.35.54:581][478]LogSavePackage: Save=123.84ms
-[2018.10.17-12.35.54:581][478]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/BP_Sky_Sphere670F730147E92E4D0BE9A4953F6AE5B7.tmp' to '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
-[2018.10.17-12.35.54:602][478]LogSavePackage: Display: Finished SavePackage ../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset
-[2018.10.17-12.35.54:854][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/T_Sky_Stars_Mat" FILE="../../../Engine/Content/EngineSky/T_Sky_Stars_Mat.uasset" SILENT=true
-[2018.10.17-12.35.54:874][478]LogSavePackage: Save=16.93ms
-[2018.10.17-12.35.54:874][478]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/T_Sky_Stars_Mat477C698740EDB1E7E6C62B9FB971E7E4.tmp' to '../../../Engine/Content/EngineSky/T_Sky_Stars_Mat.uasset'
-[2018.10.17-12.35.54:883][478]LogSavePackage: Display: Finished SavePackage ../../../Engine/Content/EngineSky/T_Sky_Stars_Mat.uasset
-[2018.10.17-12.35.54:921][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Skybox/Earthboc" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/Earthboc.uasset" SILENT=true
-[2018.10.17-12.35.54:942][478]LogSavePackage: Save=17.31ms
-[2018.10.17-12.35.54:942][478]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Earthboc73BF1E26425504BBF75991B074FB0471.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/Earthboc.uasset'
-[2018.10.17-12.35.54:951][478]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/Earthboc.uasset
-[2018.10.17-12.35.54:961][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Skybox/earthbox" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/earthbox.uasset" SILENT=true
-[2018.10.17-12.35.55:103][478]LogSavePackage: Save=136.96ms
-[2018.10.17-12.35.55:103][478]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/earthboxDC5380774E6349584E9A7189D933F781.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/earthbox.uasset'
-[2018.10.17-12.35.55:112][478]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/earthbox.uasset
-[2018.10.17-12.35.55:182][478]LogSlate: Window 'GameJam - Unreal Editor' being destroyed
-[2018.10.17-12.35.55:182][478]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.17-12.35.55:524][479]Cmd: QUIT_EDITOR
-[2018.10.17-12.35.56:145][479]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.10.17-12.35.56:145][479]LogExit: Preparing to exit.
-[2018.10.17-12.35.56:647][479]LogExit: Editor shut down
-[2018.10.17-12.35.56:674][479]LogExit: Transaction tracking system shut down
-[2018.10.17-12.35.56:680][479]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018002b899d8, Size=4
-[2018.10.17-12.35.56:680][479]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018002b899d0, Size=4
-[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/' was aborted.
-[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.10.17-12.35.56:994][479]LogExit: Object subsystem successfully closed.
-[2018.10.17-12.35.57:020][479]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.10.17-12.35.57:028][479]LogD3D11RHI: Shutdown
-[2018.10.17-12.35.57:028][479]LogD3D11RHI: CleanupD3DDevice
-[2018.10.17-12.35.57:050][479]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (584)
-[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (582)
-[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (580)
-[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (578)
-[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module BlueprintGraph (576)
-[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
-[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
-[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
-[2018.10.17-12.35.57:067][479]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
-[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
-[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
-[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
-[2018.10.17-12.35.57:072][479]LogDirectoryWatcher: A directory notification for 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Collections/' was aborted.
-[2018.10.17-12.35.57:072][479]LogDirectoryWatcher: A directory notification for 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Developers/JamesCook/Collections/' was aborted.
-[2018.10.17-12.35.57:072][479]LogDirectoryWatcher: A directory notification for 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Collections/' was aborted.
-[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2018.10.17-12.35.57:321][479]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2018.10.17-12.35.57:321][479]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
-[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module OculusInput (364)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module CableComponent (358)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
-[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
-[2018.10.17-12.35.57:495][479]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
-[2018.10.17-12.35.57:495][479]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
-[2018.10.17-12.35.57:495][479]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
-[2018.10.17-12.35.57:495][479]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
-[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module SourceControl (303)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2018.10.17-12.35.57:600][479]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.10.17-12.35.57:701][479]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.10.17-12.35.57:701][479]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.10.17-12.35.57:701][479]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.10.17-12.35.57:701][479]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.10.17-12.35.57:702][479]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.10.17-12.35.57:703][479]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.10.17-12.35.57:703][479]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.10.17-12.35.57:703][479]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2018.10.17-12.35.57:703][479]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2018.10.17-12.35.57:795][479]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.10.17-12.35.57:795][479]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.10.17-12.35.57:795][479]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.10.17-12.35.57:798][479]LogModuleManager: Shutting down and abandoning module Media (233)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module Core (178)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.10.17-12.35.57:813][479]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.10.17-12.35.57:877][479]LogDerivedDataCache: Shutdown
-[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.10.17-12.35.57:879][479]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.10.17-12.35.57:879][479]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1FA1536F-4DEE-AD77-345E-49A08842C4BE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=9efb7c704d4068eafdac609ff9fe6124%7C7818db829d7245d48b9806dd781e5d13%7C9f411b82-5c65-4e31-9ed1-6aa0099f131c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.10.17-12.35.57:911][479]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.10.17-12.35.57:920][479]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.10.17-12.35.57:920][479]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.10.17-12.35.57:920][479]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.10.17-12.35.57:926][479]LogExit: Exiting.
-[2018.10.17-12.35.57:942][479]Log file closed, 10/17/18 13:35:57
+[2018.10.17-12.37.17:679][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.17-12.37.17:679][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.17-12.37.17:699][  0]LogInit: Computer: 045LPDL-60840
+[2018.10.17-12.37.17:699][  0]LogInit: User: JamesCook
+[2018.10.17-12.37.17:699][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.17-12.37.17:699][  0]LogInit: High frequency timer resolution =1.851561 MHz
+[2018.10.17-12.37.17:700][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.17-12.37.17:700][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.17-12.37.17:700][  0]LogMemory: Process Physical Memory: 277.00 MB used, 277.00 MB peak
+[2018.10.17-12.37.17:700][  0]LogMemory: Process Virtual Memory: 264.94 MB used, 264.94 MB peak
+[2018.10.17-12.37.17:700][  0]LogMemory: Physical Memory: 8227.44 MB used,  8037.31 MB free, 16264.75 MB total
+[2018.10.17-12.37.17:700][  0]LogMemory: Virtual Memory: 698.16 MB used,  8037.31 MB free, 134217728.00 MB total
+[2018.10.17-12.37.17:712][  0]LogInit: Using OS detected language (en-US).
+[2018.10.17-12.37.17:712][  0]LogInit: Using OS detected locale (en-GB).
+[2018.10.17-12.37.17:715][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.17-12.37.18:113][  0]LogStreaming: Display: Took  0.401s to EndInitTextLocalization.
+[2018.10.17-12.37.18:113][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.17-12.37.18:177][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.17-12.37.18:177][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.17-12.37.18:390][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.17-12.37.18:399][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.10.17-12.37.18:399][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2018.10.17-12.37.18:402][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.17-12.37.18:402][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.17-12.37.18:402][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.17-12.37.18:410][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.17-12.37.18:410][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.17-12.37.18:410][  0]LogWindows: EnumDisplayDevices:
+[2018.10.17-12.37.18:410][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:0 D:1)
+[2018.10.17-12.37.18:410][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.10.17-12.37.18:410][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.10.17-12.37.18:410][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.17-12.37.18:410][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2018.10.17-12.37.18:410][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.17-12.37.18:410][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.17-12.37.18:410][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2018.10.17-12.37.18:419][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.17-12.37.18:423][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.10.17-12.37.18:424][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (D:/GameJam/Team15GameJam/GameJam15/GameJam/Intermediate/Shaders/WorkingDirectory/13820/).
+[2018.10.17-12.37.18:424][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/James Cook/AppData/Local/Temp/UnrealShaderWorkingDir/61C7A0B5469D251E3AD27BBD728DB2FD/'.
+[2018.10.17-12.37.18:636][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.17-12.37.18:649][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.17-12.37.18:662][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.17-12.37.18:676][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.17-12.37.18:689][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.17-12.37.18:701][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.17-12.37.18:713][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.17-12.37.18:727][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.17-12.37.18:733][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.17-12.37.18:743][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.10.17-12.37.18:754][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.10.17-12.37.18:764][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.10.17-12.37.18:778][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.10.17-12.37.18:789][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.10.17-12.37.18:799][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.10.17-12.37.18:822][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.10.17-12.37.18:822][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.10.17-12.37.18:833][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-12.37.18:835][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.17-12.37.18:871][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.17-12.37.18:881][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.17-12.37.18:892][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.17-12.37.18:904][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.17-12.37.18:915][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.17-12.37.18:927][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.17-12.37.18:927][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.17-12.37.19:013][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.17-12.37.19:013][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.17-12.37.19:013][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.17-12.37.19:651][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.17-12.37.19:711][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/James Cook/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.17-12.37.19:711][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/James Cook/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.10.17-12.37.19:712][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GameJam/Team15GameJam/GameJam15/GameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.17-12.37.19:712][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.17-12.37.19:712][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GameJam/Team15GameJam/GameJam15/GameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.17-12.37.19:712][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.17-12.37.19:727][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.17-12.37.19:739][  0]LogDerivedDataCache: Using Local data cache path C:/Users/James Cook/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.17-12.37.19:739][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.17-12.37.19:739][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.17-12.37.19:750][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.17-12.37.19:751][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.17-12.37.19:752][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.17-12.37.19:752][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.17-12.37.19:853][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.10.17-12.37.20:130][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.17-12.37.20:264][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.17-12.37.20:266][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.17-12.37.20:266][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.17-12.37.20:266][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.17-12.37.20:266][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.10.17-12.37.20:266][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.10.17-12.37.20:300][  0]LogNetVersion: GameJam , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2281863040)
+[2018.10.17-12.37.20:829][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.159909 seconds
+[2018.10.17-12.37.20:836][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.10.17-12.37.20:836][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.10.17-12.37.20:836][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.17-12.37.22:254][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.17-12.37.22:280][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.17-12.37.22:564][  0]SourceControl: Source control is disabled
+[2018.10.17-12.37.22:564][  0]SourceControl: Source control is disabled
+[2018.10.17-12.37.22:578][  0]SourceControl: Source control is disabled
+[2018.10.17-12.37.22:592][  0]SourceControl: Source control is disabled
+[2018.10.17-12.37.22:979][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.17-12.37.23:086][  0]LogOcInput: OculusInput pre-init called
+[2018.10.17-12.37.23:178][  0]LogEngine: Initializing Engine...
+[2018.10.17-12.37.23:179][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.17-12.37.23:180][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.17-12.37.23:180][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.17-12.37.23:388][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.17-12.37.23:403][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.17-12.37.23:625][  0]LogInit: FAudioDevice initialized.
+[2018.10.17-12.37.23:703][  0]LogDerivedDataCache: Saved boot cache 0.08s 74MB C:/Users/James Cook/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.17-12.37.23:717][  0]LogInit: Texture streaming: Enabled
+[2018.10.17-12.37.23:730][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.17-12.37.23:744][  0]LogInit: Transaction tracking system initialized
+[2018.10.17-12.37.23:765][  0]BlueprintLog: New page: Editor Load
+[2018.10.17-12.37.23:830][  0]LocalizationService: Localization service is disabled
+[2018.10.17-12.37.23:913][  0]LogConsoleResponse: Display: 
+[2018.10.17-12.37.24:067][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.17-12.37.24:067][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.17-12.37.24:067][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.17-12.37.24:067][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.17-12.37.24:068][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.17-12.37.24:147][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/' took 0.02s
+[2018.10.17-12.37.24:350][  0]SourceControl: Source control is disabled
+[2018.10.17-12.37.24:350][  0]Cmd: MAP LOAD FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.17-12.37.24:350][  0]LightingResults: New page: Lighting Build
+[2018.10.17-12.37.24:353][  0]MapCheck: New page: Map Check
+[2018.10.17-12.37.24:353][  0]LightingResults: New page: Lighting Build
+[2018.10.17-12.37.24:810][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.10.17-12.37.24:824][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.17-12.37.24:838][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.17-12.37.24:885][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46.956ms to complete.
+[2018.10.17-12.37.24:885][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.535
+[2018.10.17-12.37.25:072][  0]LogCollectionManager: Loaded 0 collections in 0.002230 seconds
+[2018.10.17-12.37.25:117][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Collections/' took 0.01s
+[2018.10.17-12.37.25:117][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Developers/JamesCook/Collections/' took 0.01s
+[2018.10.17-12.37.25:117][  0]LogFileCache: Scanning file cache for directory 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Collections/' took 0.01s
+[2018.10.17-12.37.25:117][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.17-12.37.25:125][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2452 classes and 558 folders.
+[2018.10.17-12.37.25:130][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.17-12.37.25:455][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.17-12.37.25:459][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.10.17-12.37.25:475][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.17-12.37.25:477][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.17-12.37.25:487][  0]LogSlate: Took 0.005617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.17-12.37.25:656][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 9 NumSamples 1 (Frame:1).
+[2018.10.17-12.37.26:467][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.17-12.37.26:467][  0]LogLoad: (Engine Initialization) Total time: 10.85 seconds
+[2018.10.17-12.37.26:467][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.17-12.37.26:531][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.10.17-12.37.26:920][  0]LogSlate: Took 0.003653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.17-12.37.26:947][  1]LogAssetRegistry: Asset discovery search completed in 7.1157 seconds
+[2018.10.17-12.37.26:948][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.17-12.37.26:948][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2018.10.17-12.37.31:921][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-12.38.16:914][404]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.17-12.40.27:844][404]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.17-12.40.37:535][584]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.17-12.40.49:495][297]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.17-12.41.19:516][433]LogSlate: Window 'Pick Parent Class' being destroyed
