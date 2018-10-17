@@ -656,3 +656,799 @@ LogInit: Object subsystem initialized
 [2018.10.17-09.43.12:732][  1]LogAssetRegistry: Asset discovery search completed in 13.8141 seconds
 [2018.10.17-09.43.12:736][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2018.10.17-09.43.12:736][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2018.10.17-10.10.55:434][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.12.05:811][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.12.06:016][329]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.17-10.12.08:194][329]LogSlate: Window 'Save Content' being destroyed
+[2018.10.17-10.12.08:212][329]Cmd: MAP LOAD FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.17-10.12.08:218][329]LightingResults: New page: Lighting Build
+[2018.10.17-10.12.08:219][329]LoadErrors: New page: Loading map: James.umap
+[2018.10.17-10.12.08:220][329]MapCheck: New page: Map Check
+[2018.10.17-10.12.08:220][329]LightingResults: New page: Lighting Build
+[2018.10.17-10.12.08:248][329]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.17-10.12.08:249][329]LogAIModule: Creating AISystem for world James
+[2018.10.17-10.12.08:292][329]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.17-10.12.08:371][329]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.174ms to complete.
+[2018.10.17-10.12.08:375][329]LogFileHelpers: Loading map 'James' took 0.164
+[2018.10.17-10.12.15:187][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.12.21:734][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.12.21:994][693]LogActorFactory: Actor Factory created Cube
+[2018.10.17-10.12.24:061][747]LogActorFactory: Actor Factory created Cube
+[2018.10.17-10.12.25:050][767]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.10.17-10.12.31:000][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.12.37:326][ 87]LogEditorViewport: Clicking Background
+[2018.10.17-10.12.37:682][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-10.12.37:705][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-10.12.37:745][ 94]LogSavePackage: Save=17.46ms
+[2018.10.17-10.12.37:745][ 94]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James6F3A279C4D57D7E165F7A9BD9D3D1286.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-10.12.37:759][ 94]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-10.12.38:601][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.10.17-10.12.44:280][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.10.17-10.12.45:147][276]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.10.17-10.12.48:349][353]LogEditorViewport: Clicking Background
+[2018.10.17-10.12.48:833][363]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-10.12.48:856][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-10.12.48:896][363]LogSavePackage: Save=13.07ms
+[2018.10.17-10.12.48:896][363]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James726E919C421F1074F872DB88F8A6E476.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-10.12.48:909][363]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-10.14.29:221][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-10.14.29:244][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-10.14.29:290][ 84]LogSavePackage: Save=20.42ms
+[2018.10.17-10.14.29:290][ 84]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James82527E794885FF6F79A043B532105A3F.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-10.14.29:300][ 84]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-10.15.11:947][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-10.15.11:954][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-10.15.12:000][232]LogSavePackage: Save=18.85ms
+[2018.10.17-10.15.12:000][232]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James4B919DAA4F4EBAE8E5D1ADA1AE6334A5.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-10.15.12:008][232]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-10.16.10:370][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.16.13:494][532]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.10.17-10.16.20:672][715]LogEditorViewport: Clicking Background
+[2018.10.17-10.16.24:817][820]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.10.17-10.16.27:538][887]Cmd: TRANSACTION UNDO
+[2018.10.17-10.16.27:538][887]LogEditorTransaction: Undo Scale Actors
+[2018.10.17-10.16.32:149][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.16.40:745][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.16.43:622][322]Cmd: DELETE
+[2018.10.17-10.16.43:622][322]Cmd: ACTOR DELETE
+[2018.10.17-10.16.43:629][322]LogEditorActor: Deleted Actor: SkyLight
+[2018.10.17-10.16.43:672][322]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2018.10.17-10.16.47:621][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.16.50:654][492]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.10.17-10.16.51:095][492]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018002b899d8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.10.17-10.16.51:096][492]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018002b899d0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.10.17-10.16.51:712][492]LogSlate: Took 0.007437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.17-10.16.52:071][493]LogSlate: Took 0.007278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.17-10.16.56:272][582]LogSlate: Window 'BP_Sky_Sphere' being destroyed
+[2018.10.17-10.19.11:379][229]LogEditorTransaction: Undo Edit Sun Brightness
+[2018.10.17-10.19.14:803][413]BlueprintLog: New page: Compile BP_Sky_Sphere
+[2018.10.17-10.19.24:856][655]Cmd: TRANSACTION UNDO
+[2018.10.17-10.19.24:856][655]LogEditorTransaction: Undo Rotate Actors
+[2018.10.17-10.19.28:677][772]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.17-10.19.31:594][835]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.17-10.19.32:514][854]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.10.17-10.20.18:281][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.25.29:572][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.17-10.25.29:606][161]LogSavePackage: Save=17.37ms
+[2018.10.17-10.25.29:606][161]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James_Auto1161F1FCD437E758DD00EA499084A8A11.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto1.umap'
+[2018.10.17-10.25.29:611][161]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto1.umap
+[2018.10.17-10.25.29:616][161]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/James' took 0.086
+[2018.10.17-10.25.29:616][161]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.086
+[2018.10.17-10.25.29:624][161]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EngineSky/BP_Sky_Sphere] ([1] browsable assets)...
+[2018.10.17-10.25.29:691][161]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere]
+[2018.10.17-10.25.29:691][161]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSky/BP_Sky_Sphere]
+[2018.10.17-10.25.29:691][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Engine/EngineSky/BP_Sky_Sphere_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.17-10.25.29:815][161]LogSavePackage: Save=111.99ms
+[2018.10.17-10.25.29:815][161]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/BP_Sky_Sphere_Auto109A7ECF64782275123DE3AB0416C02EF.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Engine/EngineSky/BP_Sky_Sphere_Auto1.uasset'
+[2018.10.17-10.25.29:820][161]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Engine/EngineSky/BP_Sky_Sphere_Auto1.uasset
+[2018.10.17-10.25.29:820][161]LogFileHelpers: Auto-saving content packages took 0.200
+[2018.10.17-10.28.43:333][261]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\James Cook\Pictures\earthbox.jpg)
+[2018.10.17-10.28.43:394][261]LogTexture: Display: Building textures: earthbox (AutoDXT, 1900X900)
+[2018.10.17-10.30.15:680][363]LogRenderer: Reallocating scene render targets to support 1432x1044 Format 10 NumSamples 1 (Frame:1).
+[2018.10.17-10.32.15:419][791]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
+[2018.10.17-10.32.15:555][791]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
+[2018.10.17-10.32.15:583][791]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.17-10.32.15:583][791]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.17-10.32.15:583][791]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.17-10.32.15:583][791]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.17-10.32.19:201][828]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.17-10.32.19:384][829]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.17-10.32.19:424][830]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.17-10.32.19:424][830]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.17-10.32.19:980][836]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.17-10.32.20:178][838]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.17-10.32.20:209][838]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.17-10.32.21:047][847]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.17-10.32.21:049][847]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.17-10.32.21:740][854]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.17-10.32.21:961][856]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.17-10.32.22:035][857]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.17-10.32.23:706][874]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.10.17-10.32.23:706][874]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.10.17-10.32.23:706][874]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.10.17-10.32.23:707][874]MaterialEditorStats: Texture samplers: 2/16
+[2018.10.17-10.32.55:171][978]Cmd: TRANSACTION UNDO
+[2018.10.17-10.32.55:171][978]LogEditorTransaction: Undo Replace component used material
+[2018.10.17-10.32.55:444][978]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
+[2018.10.17-10.32.55:475][978]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.17-10.32.55:475][978]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.17-10.32.55:475][978]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.17-10.32.55:475][978]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.17-10.32.56:911][ 10]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.17-10.32.57:080][ 10]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.17-10.32.57:117][ 10]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.17-10.32.57:152][ 10]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.17-10.32.57:532][ 17]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.17-10.32.57:576][ 18]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.17-10.32.57:605][ 19]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.17-10.32.58:105][ 37]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.17-10.32.58:161][ 39]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.17-10.32.58:571][ 55]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.17-10.32.58:681][ 58]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.17-10.32.58:774][ 59]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.17-10.33.01:502][ 63]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.17-10.33.01:697][ 64]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.10.17-10.33.01:697][ 64]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.10.17-10.33.01:697][ 64]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.10.17-10.33.01:697][ 64]MaterialEditorStats: Texture samplers: 2/16
+[2018.10.17-10.33.57:666][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.33.59:039][219]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2018.10.17-10.34.02:587][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.34.03:159][265]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.10.17-10.34.03:259][265]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2018.10.17-10.34.22:974][624]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.10.17-10.34.23:006][625]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.17-10.34.41:415][828]LogActorFactory: Actor Factory created SM_SkySphere
+[2018.10.17-10.34.42:449][854]LogActorFactory: Actor Factory created SM_SkySphere
+[2018.10.17-10.34.44:325][873]Cmd: TRANSACTION UNDO
+[2018.10.17-10.34.44:325][873]LogEditorTransaction: Undo Create Actors
+[2018.10.17-10.34.44:619][873]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
+[2018.10.17-10.34.44:647][873]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.17-10.34.44:647][873]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.17-10.34.44:647][873]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.17-10.34.44:647][873]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.17-10.34.45:083][886]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.17-10.34.45:930][898]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.17-10.34.46:147][902]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.17-10.34.46:297][903]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.17-10.34.46:298][903]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.17-10.34.46:637][905]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.17-10.34.46:978][908]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.17-10.34.47:498][910]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.17-10.34.47:767][913]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.17-10.34.47:924][914]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.17-10.34.48:643][919]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.17-10.34.48:681][920]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.17-10.34.48:824][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.34.49:615][939]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.10.17-10.34.49:616][939]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.10.17-10.34.49:616][939]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.10.17-10.34.49:616][939]MaterialEditorStats: Texture samplers: 2/16
+[2018.10.17-10.35.39:105][545]LogActorFactory: Actor Factory created SM_SkySphere
+[2018.10.17-10.35.39:382][552]LogActorFactory: Actor Factory created SM_SkySphere
+[2018.10.17-10.35.40:028][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.35.50:779][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.35.51:522][682]LogMaterial: Missing cached shader map for material T_Sky_Stars_Mat, compiling. 
+[2018.10.17-10.35.51:547][682]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.17-10.35.51:547][682]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.17-10.35.51:547][682]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.17-10.35.56:125][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.35.56:641][749]LogMaterial: Missing cached shader map for material SkyLight_Mat, compiling. 
+[2018.10.17-10.35.56:668][749]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.17-10.35.56:668][749]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.17-10.35.57:684][771]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.17-10.35.59:054][782]Cmd: TRANSACTION UNDO
+[2018.10.17-10.35.59:054][782]LogEditorTransaction: Undo Create Actors
+[2018.10.17-10.35.59:483][782]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
+[2018.10.17-10.35.59:491][782]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.17-10.36.00:244][796]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.17-10.36.01:365][805]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.17-10.36.01:665][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.36.01:882][805]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.17-10.36.01:940][806]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.17-10.36.02:311][813]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.17-10.36.02:425][816]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.17-10.36.02:908][821]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.17-10.36.03:093][823]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.17-10.36.03:278][824]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.17-10.36.04:113][830]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.17-10.36.04:467][833]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.17-10.36.04:742][833]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.17-10.36.05:669][842]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.17-10.36.05:864][843]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.17-10.36.06:377][844]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.17-10.36.07:469][853]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.10.17-10.36.07:470][853]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.10.17-10.36.07:470][853]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.10.17-10.36.07:470][853]MaterialEditorStats: Texture samplers: 2/16
+[2018.10.17-10.36.10:776][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.36.15:971][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.36.16:568][948]LogMaterial: Missing cached shader map for material T_Sky_Stars_Mat, compiling. 
+[2018.10.17-10.36.16:598][948]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.17-10.36.16:598][948]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.17-10.36.16:598][948]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.17-10.36.19:405][991]Cmd: TRANSACTION UNDO
+[2018.10.17-10.36.19:405][991]LogEditorTransaction: Undo Create Actors
+[2018.10.17-10.36.19:781][991]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
+[2018.10.17-10.36.19:792][991]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.17-10.36.19:792][991]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.17-10.36.19:816][991]Cmd: TRANSACTION UNDO
+[2018.10.17-10.36.19:816][991]LogEditorTransaction: Undo Create Actors
+[2018.10.17-10.36.20:012][991]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
+[2018.10.17-10.36.20:025][991]Cmd: TRANSACTION UNDO
+[2018.10.17-10.36.20:025][991]LogEditorTransaction: Undo Create Actors
+[2018.10.17-10.36.20:136][991]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.17-10.36.20:136][991]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.17-10.36.20:231][991]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
+[2018.10.17-10.36.20:361][992]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.17-10.36.20:379][992]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.17-10.36.21:282][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.36.21:365][999]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.17-10.36.21:366][999]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.17-10.36.21:525][  1]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.17-10.36.21:783][  6]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.17-10.36.21:835][  7]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.17-10.36.21:904][  8]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.17-10.36.22:383][ 12]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.17-10.36.22:450][ 12]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.17-10.36.23:375][ 20]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.17-10.36.23:438][ 20]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.17-10.36.24:097][ 26]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.17-10.36.24:873][ 29]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.17-10.36.24:928][ 29]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.17-10.36.25:079][ 30]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.17-10.36.26:171][ 39]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.10.17-10.36.26:171][ 39]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.10.17-10.36.26:171][ 39]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.10.17-10.36.26:171][ 39]MaterialEditorStats: Texture samplers: 2/16
+[2018.10.17-10.36.29:547][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-10.37.00:635][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.17-10.37.00:671][295]LogSavePackage: Save=16.36ms
+[2018.10.17-10.37.00:672][295]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James_Auto22F211181400AC7834863B2946A87467E.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto2.umap'
+[2018.10.17-10.37.00:676][295]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Levels/James_Auto2.umap
+[2018.10.17-10.37.00:681][295]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/James' took 0.075
+[2018.10.17-10.37.00:681][295]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.075
+[2018.10.17-10.37.00:687][295]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Skybox/earthbox] ([1] browsable assets)...
+[2018.10.17-10.37.00:692][295]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Skybox/earthbox.earthbox]
+[2018.10.17-10.37.00:692][295]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Skybox/earthbox]
+[2018.10.17-10.37.00:692][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Skybox/earthbox" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/earthbox_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.10.17-10.37.00:715][295]LogSavePackage: Save=17.31ms
+[2018.10.17-10.37.00:715][295]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/earthbox_Auto2835C57FC4E83B064A1A3C98D2624F9EB.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/earthbox_Auto2.uasset'
+[2018.10.17-10.37.00:722][295]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/earthbox_Auto2.uasset
+[2018.10.17-10.37.00:723][295]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Skybox/Earthboc] ([1] browsable assets)...
+[2018.10.17-10.37.00:756][295]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Skybox/Earthboc.Earthboc]
+[2018.10.17-10.37.00:756][295]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Skybox/Earthboc]
+[2018.10.17-10.37.00:756][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Skybox/Earthboc" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/Earthboc_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.10.17-10.37.00:787][295]LogSavePackage: Save=25.09ms
+[2018.10.17-10.37.00:787][295]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Earthboc_Auto209BC12204A4217CD5542D19C5AF78B88.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/Earthboc_Auto2.uasset'
+[2018.10.17-10.37.00:793][295]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Game/Art/Skybox/Earthboc_Auto2.uasset
+[2018.10.17-10.37.00:793][295]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EngineSky/T_Sky_Stars_Mat] ([1] browsable assets)...
+[2018.10.17-10.37.00:827][295]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/EngineSky/T_Sky_Stars_Mat.T_Sky_Stars_Mat]
+[2018.10.17-10.37.00:827][295]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSky/T_Sky_Stars_Mat]
+[2018.10.17-10.37.00:852][295]LogSavePackage: Save=22.94ms
+[2018.10.17-10.37.00:852][295]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/T_Sky_Stars_Mat_Auto2AB5EA8614D60CF66E52FE38845DA21EF.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Engine/EngineSky/T_Sky_Stars_Mat_Auto2.uasset'
+[2018.10.17-10.37.00:857][295]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Autosaves/Engine/EngineSky/T_Sky_Stars_Mat_Auto2.uasset
+[2018.10.17-10.37.00:857][295]LogFileHelpers: Auto-saving content packages took 0.174
+[2018.10.17-10.40.59:753][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-10.40.59:765][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-10.40.59:815][ 60]LogSavePackage: Save=14.51ms
+[2018.10.17-10.40.59:815][ 60]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/JamesC3BBE5134E559758ACB8648FDC641183.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-10.40.59:834][ 60]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-11.29.33:806][890]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.29.51:898][966]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.31.58:352][617]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.32.10:849][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.10.17-11.32.16:660][794]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.32.20:726][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.32.25:667][141]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.32.52:989][518]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.32.54:521][655]Cmd: STAT FPS
+[2018.10.17-11.32.55:864][767]LogEditorViewport: Clicking Background
+[2018.10.17-11.33.47:326][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.33.51:277][541]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.33.56:584][716]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.34.03:445][991]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.34.08:271][174]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.34.11:328][289]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.34.16:773][621]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.34.24:968][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.34.29:765][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.10.17-11.34.36:820][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.34.38:864][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.34.42:776][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2018.10.17-11.34.44:636][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.34.50:524][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.34.55:937][338]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.17-11.34.59:541][386]Cmd: TRANSACTION UNDO
+[2018.10.17-11.34.59:541][386]LogEditorTransaction: Undo Move Actors
+[2018.10.17-11.34.59:769][386]LogMaterial: Missing cached shader map for material Earthboc, compiling. 
+[2018.10.17-11.34.59:802][386]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.17-11.34.59:802][386]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.17-11.34.59:802][386]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.17-11.34.59:802][386]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.17-11.35.00:543][426]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.17-11.35.00:625][428]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.17-11.35.00:666][429]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.17-11.35.00:666][429]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.17-11.35.01:121][435]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.17-11.35.01:198][436]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.17-11.35.01:219][436]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.17-11.35.01:660][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.35.01:745][442]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.17-11.35.01:815][442]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.17-11.35.01:815][442]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.17-11.35.01:815][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.17-11.35.01:821][442]PIE: New page: PIE session: James (17 Oct 2018 13:35:01)
+[2018.10.17-11.35.01:823][442]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_James
+[2018.10.17-11.35.01:827][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003660s)
+[2018.10.17-11.35.01:828][442]LogAIModule: Creating AISystem for world James
+[2018.10.17-11.35.01:829][442]LogPlayLevel: PIE: World Init took: (0.001744s)
+[2018.10.17-11.35.01:829][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/James.James to /Game/Levels/UEDPIE_0_James.James (0.005975s)
+[2018.10.17-11.35.01:885][442]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.17-11.35.01:994][442]LogInit: FAudioDevice initialized.
+[2018.10.17-11.35.02:061][442]LogLoad: Game class is 'GameModeBase'
+[2018.10.17-11.35.02:074][442]LogWorld: Bringing World /Game/Levels/UEDPIE_0_James.James up for play (max tick rate 0) at 2018.10.17-12.35.02
+[2018.10.17-11.35.02:076][442]LogWorld: Bringing up level for play took: 0.002614
+[2018.10.17-11.35.02:099][442]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.17-11.35.02:099][442]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.10.17-11.35.02:104][442]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_James 0.33
+[2018.10.17-11.35.02:214][443]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.17-11.35.02:248][443]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.17-11.35.02:936][461]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.10.17-11.35.02:936][461]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.10.17-11.35.02:936][461]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.10.17-11.35.02:936][461]MaterialEditorStats: Texture samplers: 2/16
+[2018.10.17-11.35.41:000][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.35.44:811][647]LogSlate: Window 'Message' being destroyed
+[2018.10.17-11.36.13:118][820]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.10.17-11.36.19:360][ 71]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.17-11.36.20:062][ 91]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.17-11.36.25:755][301]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.17-11.36.27:771][361]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.10.17-11.36.30:788][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.10.17-11.36.32:040][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2018.10.17-11.36.32:826][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.36.36:916][689]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.36.36:925][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-11.36.37:004][689]LogSavePackage: Save=22.18ms
+[2018.10.17-11.36.37:004][689]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James5066F89948FAFE628EC1E486426B4173.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-11.36.37:015][689]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-11.38.08:041][471]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.39.02:900][990]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.39.21:741][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.39.57:248][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.39.57:335][967]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.17-11.39.57:366][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.17-11.39.57:366][967]PIE: New page: PIE session: James (17 Oct 2018 13:39:57)
+[2018.10.17-11.39.57:366][967]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_James
+[2018.10.17-11.39.57:369][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002570s)
+[2018.10.17-11.39.57:370][967]LogAIModule: Creating AISystem for world James
+[2018.10.17-11.39.57:370][967]LogPlayLevel: PIE: World Init took: (0.001173s)
+[2018.10.17-11.39.57:370][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/James.James to /Game/Levels/UEDPIE_0_James.James (0.003977s)
+[2018.10.17-11.39.57:400][967]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.17-11.39.57:478][967]LogInit: FAudioDevice initialized.
+[2018.10.17-11.39.57:519][967]LogLoad: Game class is 'GameModeBase'
+[2018.10.17-11.39.57:521][967]LogWorld: Bringing World /Game/Levels/UEDPIE_0_James.James up for play (max tick rate 0) at 2018.10.17-12.39.57
+[2018.10.17-11.39.57:522][967]LogWorld: Bringing up level for play took: 0.001472
+[2018.10.17-11.39.57:524][967]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_James -0.25
+[2018.10.17-11.40.13:078][463]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.40.15:900][533]LogRenderer: Reallocating scene render targets to support 1432x1044 Format 9 NumSamples 1 (Frame:22201).
+[2018.10.17-11.40.16:142][536]LogContentStreaming: Texture pool size now 800 MB
+[2018.10.17-11.40.20:774][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2018.10.17-11.40.27:172][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.40.33:261][968]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.40.36:322][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.40.43:155][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.40.43:465][226]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.40.44:427][250]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.40.44:601][253]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.40.44:710][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.40.44:850][257]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.40.49:000][329]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.17-11.40.49:143][330]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameJam
+[2018.10.17-11.40.49:143][330]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.10.17-11.40.49:143][330]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.10.17-11.40.49:143][330]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.10.17-11.40.49:143][330]LogTemp: BranchPath = 045LPDL-60840/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = 045LPDL-60840/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.10.17-11.40.49:143][330]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\James Cook\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.17-11.41.36:915][500]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.17-11.41.36:992][500]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.17-11.41.43:062][657]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.10.17-11.41.46:241][737]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.41.49:464][848]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.41.57:340][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.41.58:741][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.41.59:774][ 92]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.17-11.41.59:911][ 93]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameJam
+[2018.10.17-11.41.59:912][ 93]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.10.17-11.41.59:912][ 93]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.10.17-11.41.59:912][ 93]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.10.17-11.41.59:912][ 93]LogTemp: BranchPath = 045LPDL-60840/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = 045LPDL-60840/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.10.17-11.41.59:912][ 93]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\James Cook\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.17-11.42.21:159][604]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.17-11.42.21:230][604]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.17-11.43.02:948][695]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.44.09:424][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.44.12:928][481]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-11.44.12:944][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-11.44.13:029][481]LogSavePackage: Save=24.09ms
+[2018.10.17-11.44.13:029][481]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James3C2629FF4DC625D2DFA569815F94E4B1.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-11.44.13:042][481]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-11.45.55:196][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.45.55:361][896]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.17-11.45.55:403][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.17-11.45.55:403][896]PIE: New page: PIE session: James (17 Oct 2018 13:45:55)
+[2018.10.17-11.45.55:403][896]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_James
+[2018.10.17-11.45.55:404][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001022s)
+[2018.10.17-11.45.55:405][896]LogAIModule: Creating AISystem for world James
+[2018.10.17-11.45.55:405][896]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2018.10.17-11.45.55:405][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/James.James to /Game/Levels/UEDPIE_0_James.James (0.002094s)
+[2018.10.17-11.45.55:435][896]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.17-11.45.55:515][896]LogInit: FAudioDevice initialized.
+[2018.10.17-11.45.55:550][896]LogLoad: Game class is 'GameModeBase'
+[2018.10.17-11.45.55:553][896]LogWorld: Bringing World /Game/Levels/UEDPIE_0_James.James up for play (max tick rate 0) at 2018.10.17-12.45.55
+[2018.10.17-11.45.55:553][896]LogWorld: Bringing up level for play took: 0.001614
+[2018.10.17-11.45.55:554][896]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_James -0.22
+[2018.10.17-11.48.49:417][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-11.49.13:971][225]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.17-11.50.38:365][789]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.17-11.50.42:183][836]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.17-11.51.03:130][202]LogSlate: Window 'FirstPersonCharacter*' being destroyed
+[2018.10.17-11.51.25:834][162]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.17-12.31.36:779][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-12.31.36:788][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-12.31.36:842][ 38]LogSavePackage: Save=13.37ms
+[2018.10.17-12.31.36:842][ 38]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James0567802942D2303E0B882CA0F5FB53CF.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-12.31.36:848][ 38]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-12.31.37:694][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-12.31.37:736][ 54]LogSavePackage: Save=17.44ms
+[2018.10.17-12.31.37:736][ 54]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James405A5F3548BCEB010DF7D99ECE0B4859.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-12.31.37:740][ 54]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-12.31.55:045][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.17-12.32.05:264][411]LogSlate: Window 'Source Control Login' being destroyed
+[2018.10.17-12.33.59:101][ 11]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.17-12.34.07:787][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-12.34.07:829][211]LogSavePackage: Save=14.24ms
+[2018.10.17-12.34.07:830][211]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/James1A5EA06E4DEB3A904001B6A9739CF689.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-12.34.07:835][211]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-12.34.49:079][730]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.17-12.35.41:010][262]LogSlate: Window 'Save Content' being destroyed
+[2018.10.17-12.35.45:787][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/James" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.17-12.35.45:837][373]LogSavePackage: Save=17.68ms
+[2018.10.17-12.35.45:838][373]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/JamesFE2C5CD541AF02E32503B9B64D7835F4.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap'
+[2018.10.17-12.35.45:842][373]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Levels/James.umap
+[2018.10.17-12.35.54:406][478]LogSlate: Window 'Save Content' being destroyed
+[2018.10.17-12.35.54:441][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" SILENT=true
+[2018.10.17-12.35.54:581][478]LogSavePackage: Save=123.84ms
+[2018.10.17-12.35.54:581][478]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/BP_Sky_Sphere670F730147E92E4D0BE9A4953F6AE5B7.tmp' to '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+[2018.10.17-12.35.54:602][478]LogSavePackage: Display: Finished SavePackage ../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset
+[2018.10.17-12.35.54:854][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/T_Sky_Stars_Mat" FILE="../../../Engine/Content/EngineSky/T_Sky_Stars_Mat.uasset" SILENT=true
+[2018.10.17-12.35.54:874][478]LogSavePackage: Save=16.93ms
+[2018.10.17-12.35.54:874][478]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/T_Sky_Stars_Mat477C698740EDB1E7E6C62B9FB971E7E4.tmp' to '../../../Engine/Content/EngineSky/T_Sky_Stars_Mat.uasset'
+[2018.10.17-12.35.54:883][478]LogSavePackage: Display: Finished SavePackage ../../../Engine/Content/EngineSky/T_Sky_Stars_Mat.uasset
+[2018.10.17-12.35.54:921][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Skybox/Earthboc" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/Earthboc.uasset" SILENT=true
+[2018.10.17-12.35.54:942][478]LogSavePackage: Save=17.31ms
+[2018.10.17-12.35.54:942][478]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Earthboc73BF1E26425504BBF75991B074FB0471.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/Earthboc.uasset'
+[2018.10.17-12.35.54:951][478]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/Earthboc.uasset
+[2018.10.17-12.35.54:961][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Skybox/earthbox" FILE="D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/earthbox.uasset" SILENT=true
+[2018.10.17-12.35.55:103][478]LogSavePackage: Save=136.96ms
+[2018.10.17-12.35.55:103][478]LogSavePackage: Moving 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/earthboxDC5380774E6349584E9A7189D933F781.tmp' to 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/earthbox.uasset'
+[2018.10.17-12.35.55:112][478]LogSavePackage: Display: Finished SavePackage D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Art/Skybox/earthbox.uasset
+[2018.10.17-12.35.55:182][478]LogSlate: Window 'GameJam - Unreal Editor' being destroyed
+[2018.10.17-12.35.55:182][478]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.17-12.35.55:524][479]Cmd: QUIT_EDITOR
+[2018.10.17-12.35.56:145][479]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.17-12.35.56:145][479]LogExit: Preparing to exit.
+[2018.10.17-12.35.56:647][479]LogExit: Editor shut down
+[2018.10.17-12.35.56:674][479]LogExit: Transaction tracking system shut down
+[2018.10.17-12.35.56:680][479]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018002b899d8, Size=4
+[2018.10.17-12.35.56:680][479]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018002b899d0, Size=4
+[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/' was aborted.
+[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.10.17-12.35.56:827][479]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.10.17-12.35.56:994][479]LogExit: Object subsystem successfully closed.
+[2018.10.17-12.35.57:020][479]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.17-12.35.57:028][479]LogD3D11RHI: Shutdown
+[2018.10.17-12.35.57:028][479]LogD3D11RHI: CleanupD3DDevice
+[2018.10.17-12.35.57:050][479]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (584)
+[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (582)
+[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (580)
+[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (578)
+[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module BlueprintGraph (576)
+[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
+[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.10.17-12.35.57:067][479]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.10.17-12.35.57:067][479]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.10.17-12.35.57:072][479]LogDirectoryWatcher: A directory notification for 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Collections/' was aborted.
+[2018.10.17-12.35.57:072][479]LogDirectoryWatcher: A directory notification for 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Content/Developers/JamesCook/Collections/' was aborted.
+[2018.10.17-12.35.57:072][479]LogDirectoryWatcher: A directory notification for 'D:/GameJam/Team15GameJam/GameJam15/GameJam/Saved/Collections/' was aborted.
+[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.10.17-12.35.57:072][479]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.10.17-12.35.57:073][479]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.10.17-12.35.57:074][479]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.10.17-12.35.57:246][479]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.10.17-12.35.57:247][479]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.10.17-12.35.57:313][479]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.10.17-12.35.57:321][479]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.10.17-12.35.57:321][479]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.10.17-12.35.57:323][479]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
+[2018.10.17-12.35.57:324][479]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module OculusInput (364)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
+[2018.10.17-12.35.57:494][479]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
+[2018.10.17-12.35.57:495][479]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
+[2018.10.17-12.35.57:495][479]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
+[2018.10.17-12.35.57:495][479]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
+[2018.10.17-12.35.57:495][479]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
+[2018.10.17-12.35.57:498][479]LogModuleManager: Shutting down and abandoning module SourceControl (303)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.10.17-12.35.57:499][479]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.10.17-12.35.57:600][479]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.10.17-12.35.57:700][479]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.10.17-12.35.57:701][479]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.10.17-12.35.57:701][479]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.10.17-12.35.57:701][479]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.10.17-12.35.57:701][479]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.10.17-12.35.57:702][479]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.10.17-12.35.57:703][479]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.10.17-12.35.57:703][479]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.10.17-12.35.57:703][479]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.10.17-12.35.57:703][479]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.10.17-12.35.57:795][479]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.10.17-12.35.57:795][479]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.10.17-12.35.57:795][479]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.10.17-12.35.57:798][479]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.10.17-12.35.57:804][479]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.10.17-12.35.57:805][479]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.10.17-12.35.57:807][479]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.10.17-12.35.57:813][479]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.10.17-12.35.57:877][479]LogDerivedDataCache: Shutdown
+[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.10.17-12.35.57:877][479]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.10.17-12.35.57:878][479]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.10.17-12.35.57:879][479]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.10.17-12.35.57:879][479]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.17-12.35.57:879][479]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1FA1536F-4DEE-AD77-345E-49A08842C4BE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=9efb7c704d4068eafdac609ff9fe6124%7C7818db829d7245d48b9806dd781e5d13%7C9f411b82-5c65-4e31-9ed1-6aa0099f131c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.17-12.35.57:911][479]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.17-12.35.57:913][479]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.17-12.35.57:920][479]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.17-12.35.57:920][479]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.17-12.35.57:920][479]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.17-12.35.57:921][479]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.17-12.35.57:926][479]LogExit: Exiting.
+[2018.10.17-12.35.57:942][479]Log file closed, 10/17/18 13:35:57
